@@ -1,4 +1,22 @@
-theme: jekyll-theme-leap-day
-name: Hank Quinlan, Horrible Cop
+# Site settings
+title: Dhaval Patel
+header-img: img/home-bg.jpg
+email: mail@dhavalpatel.co.uk
+description: "Codeo() //Coding and Video"
+url: "http://dhavalpatel.co.uk"
+twitter_username: dhavalpatel
+github_username:  dp21g
+facebook_username:  Dhaval Patel
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
