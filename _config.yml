@@ -26,8 +26,6 @@ title:                 Dhaval Patel
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description: >- # this means to ignore newlines until "baseurl:"
   Looking to share some epistle on coding and making videos.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dhavalpatel
 github_username:  dp21g
 
@@ -52,8 +50,8 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Blog
-    url:               /blog/
+  - title:             Example
+    url:               /example/
   - title:             Documentation
     url:               /docs/
   - title:             About
@@ -84,7 +82,7 @@ paginate_path:         /:num/
 # ---------------------------------------------------------------------------------------
 
 # theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9.0.0-rc.6
+remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
@@ -163,7 +161,7 @@ defaults:
         type:          WebPage
 
 kramdown:
-  math_engine:         mathjax
+  math_engine:         katex
   math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
 
